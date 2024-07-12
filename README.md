@@ -21,7 +21,8 @@ CONCLUÍDO
 # Funcionalidades
 A aplicação consiste em um fórum de dúvidas e debates. O cliente deve fazer uma requisição de login, onde colocará sua senha e usúario, previamente cadastrados no banco de dados. Com a autenticação, um token será
 gerado(é uma aplicação stateless). Toda requisição será necessário o envio do token para autorização. O cliente já autenticado tem a opção de cadastrar um tópico no banco de dados, requerer a lista de tópicos cadastrados,
-requerer um tópico específico em detalhe, cadastrar uma resposta em algum tópico e deletar algum tópico que tenha cadastrado.
+requerer um tópico específico em detalhe, cadastrar uma resposta em algum tópico e deletar algum tópico que tenha cadastrado. Todas as requisições contam com validações que devem ser respeitadas para que sejam
+confirmadas. São validações de campos obrigatórios e formato de dados obrigatórios.
 
 # Tecnologias Envolvidas
 O projeto foi desenvolvido em Java (Java 17) e Spring Boot framework. Maven, com JPA e Spring Security. No projeto também utilizamos o banco de dados MySQL, em conjunto com Flyway migrations para registrar alterações,
