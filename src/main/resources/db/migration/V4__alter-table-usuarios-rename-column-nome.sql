@@ -1,0 +1,1 @@
+alter table usuarios change nome login varchar(100) not null unique;

@@ -1,0 +1,1 @@
+alter table topicos change dataCriacao data datetime not null;

@@ -1,0 +1,1 @@
+alter table respostas change dataCriacao data datetime not null;

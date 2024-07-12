@@ -1,0 +1,1 @@
+alter table topicos change resposta_id resposta_id bigint;
